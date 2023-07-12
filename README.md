@@ -1,3 +1,3 @@
 # Codine
 
-Minimal personal development environment - written in Lua and neovim
+Minimal personal development environment without the plugin bloat.
