@@ -15,11 +15,14 @@ local opts = {
     hlsearch = false,
     incsearch = true,
     smartcase = true,
-    
+	ignorecase = true,
+
     -- windows/buffers
     softtabstop = 4,
     tabstop = 4,
     shiftwidth = 4,
+    autoindent = true,
+
     splitright = true,
     splitbelow = true,
 }
