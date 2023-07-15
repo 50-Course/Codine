@@ -25,3 +25,7 @@ return require('packer').startup(function(use)
     require('packer').sync()
   end
 end)
+
+-- Am ultimately tired of manually running :PackerInstall
+-- TODO: include autocmmand script to automatically source the filet
+
