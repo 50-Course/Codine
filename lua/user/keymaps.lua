@@ -5,11 +5,11 @@ local opts = { noremap = true, silent = true }
 
 -- Leader
 vim.g.mapleader = " "
-vim.g.localleader = ","
+vim.g.localleader = ";"
 
 -- Keybinds
 -- Project Management
-
+map('', '<Soace>', '<Nop>')
 map('n', '<Leader>pv', vim.cmd.Ex, opts)
 map({'i', 'v', 't'}, 'jk', '<Esc>', opts)
 
