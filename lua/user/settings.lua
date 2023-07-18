@@ -17,12 +17,14 @@ local opts = {
     smartcase = true,
 	ignorecase = true,
 
-    -- windows/buffers
+    -- indentation
     softtabstop = 4,
     tabstop = 4,
     shiftwidth = 4,
+	expandtab = true,
     autoindent = true,
-
+	
+    -- windows/buffers
     splitright = true,
     splitbelow = true,
 }

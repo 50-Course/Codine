@@ -14,14 +14,13 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
-  use {
-	"williamboman/mason.nvim",
-	run = ":MasonUpdate"
-	}
-
   use {'folke/tokyonight.nvim', lazy=false, priority=1000, opts={}, }
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
   if packer_bootstrap then
     require('packer').sync()
   end
 end)
+
+-- Am ultimately tired of manually running :PackerInstall
+-- TODO: include autocmmand script to automatically source the filet
