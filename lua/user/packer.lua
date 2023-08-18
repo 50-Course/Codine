@@ -38,7 +38,10 @@ return require('packer').startup(function(use)
 		  -- Snippets
 		  {'L3MON4D3/LuaSnip'},
 		  {'rafamadriz/friendly-snippets'},
-	  }
+  },
+  use { 'mfussenegger/nvim-dap' },
+
+
   }
 
   if packer_bootstrap then
